@@ -5,7 +5,6 @@ import com.codename1.ui.Graphics;
 
 public interface IDrawable {
 
-	// Create a draw method which will need to be filled out in the concrete classes
 	void draw(Graphics g, Point pCmpRelPrnt);
 	
 }
